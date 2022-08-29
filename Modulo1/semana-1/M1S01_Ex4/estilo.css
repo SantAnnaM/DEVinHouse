@@ -1,0 +1,23 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px ;
+    color: rgb(83, 17, 239) ;
+    text-align: center;
+}
+
+body {
+  background-color: rgb(201, 230, 238) ;
+}
+
+p {
+    font-size: 14px;
+}
+
+.img-arredondada {
+  height: 50px;
+  width: 80px;
+  border-radius: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  margin-top: 25px;
+}

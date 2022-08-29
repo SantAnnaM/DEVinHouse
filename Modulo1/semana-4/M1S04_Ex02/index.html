@@ -1,0 +1,65 @@
+<!-- 
+Vamos criar os campos para que o usuário consiga fazer as operações bancárias:
+
+Adicione um select para exibir as contas dos clientes (por enquanto sem nenhuma opção);
+Adicione um input com o placeholder Valor;
+Adicione um select com as opções:
+-- Sacar
+-- Depositar
+Adicione um botão com o texto Confirmar
+-->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banco Vale Tudo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header"><h1>Conta bancária Banco Vale Tudo</h1></header>
+
+    
+    <main class="content">
+        <div class="card">
+          <h2>Movimentação: Faça uma operação</h2>
+          <ul class="extratoClass" id="extratiId"></ul>
+
+          <form>
+            <label for="account">Conta</label>
+            <select name="account" id="account">
+              <option value="corrente">Conta corrente</option>
+              <option value="poupança">Conta poupança</option>
+            </select>
+      
+            <label for="amount">Valor</label>
+            <input type="number" id="amount" name="amount" placeholder="Valor">
+            <label for="transaction">Operação</label>
+
+            <select name="transaction" id="transaction">
+              <option value="withdrawal">Saque</option>
+              <option value="deposit">Depósito</option>
+            </select>
+      
+            <button type="submit" >Confirmar</button>
+          </form>
+
+        </div>
+        <div class="card">
+          <h2>Cartões</h2>
+          <ul class="cartaoClass" id="cartaoId"></ul>
+        </div>
+        <div class="card">
+          <h2>Investimentos</h2>
+          <ul class="investimentoClass" id="investimentoId"></ul>
+        </div>
+      </main>
+    <br />
+
+  </body>
+  <script src="script.js"></script>
+</html>

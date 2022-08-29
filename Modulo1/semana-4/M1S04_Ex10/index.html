@@ -1,0 +1,55 @@
+<!-- 
+Vamos criar uma página para exibir a estação do ano
+
+Adicione um input do tipo data
+No evento de onchange do input chamar a função para verificar a estação
+Criar função para verificar qual a estação atual do ano no hemisfério sul, ela deve adicionar o texto e a imagem que representa a estação da data.
+Considere:
+-- 22/12 a 21/03 - Verão;
+-- 22/03 a 21/06 - Outono;
+-- 22/06 a 21/09 - Inverno;
+-- 22/09 a 21/12 - Primavera.
+A página deve conter um texto e uma imagem, ambos representando a estação.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estações do ano</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+  
+    <header class="header"><h1>Estações do ano</h1></header>
+
+   <!-- for do <label>: Tal controle é chamado o controle rotulado do elemento etiqueta. Um elemento HTML label representa uma legenda para um item em uma interface de usuário, importante para a acessibilidade da página. Ex.: quando for selecionado uma caixa de texto, o label associado será lido e a pessoa vai saber com mais facilidade (para acessibilidade) onde ela está naquela página. Outro exemplo é quando estou no celular o label pode ser ampliado com mais facilidade porque se o label é tocado então é selecionado e recebe o foco. É melhor do que ficar utilizando parágrafo simples.
+              O "for" é o ID que será associado ao label. Um input pode ser associado a diversas etiquetas (<label>s).
+              video sobre <label>  https://youtu.be/XOGaBMM3O10  --> 
+
+
+    <main>
+      
+        <div class="inputData">
+          <label for="inputDt">Selecione uma data</label>
+          <input id="inputDt" class="field" type="date" />
+        </div>
+
+        <h2 id="estacao"></h2>
+
+        <img src="./assets/todasEstacoes.png" alt="Estações do ano" id="imgEstacao">
+
+        
+
+        <button id="confirmar" class="button-confirm">Confirmar</button>
+      </form>
+
+      
+    </main>
+  </body>
+
+  <script src="script.js"></script>
+</html>

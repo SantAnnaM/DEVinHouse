@@ -1,0 +1,44 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: rgb(43, 226, 168);
+}
+
+header {
+  margin-left: 5%;
+  color: rgb(27, 16, 1);
+}
+
+main {
+  padding: 2% 5%;
+}
+
+.field {
+  padding: 5px;
+  border-radius: 5px;
+  min-width: 150px;
+}
+
+.button-confirm {
+  padding: 8px;
+  cursor: pointer;
+  background-color: rgb(10, 57, 3);
+  border: 1px solid rgb(2, 48, 2);
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.button-confirm:hover {
+  background-color: rgb(2, 48, 2);
+  border: 1px solid darkgreen;
+}
+
+.error {
+  color: yellow;
+
+.success {
+  color: rgb(191, 243, 199);
+}

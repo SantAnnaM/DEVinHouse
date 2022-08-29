@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <title>DEVin Intelbras-Site de Notícias</title>
+</head>
+
+<body class="home">
+    <!-- Início container-->
+    <header>
+
+        <nav id="topo"><!-- Início Topo-->
+
+            <h1 class="logo">Notícias DEVinHouse</h1>
+
+            <ul id="navegacao">
+                <li class="primeiro"><a id="home" href="index.html">Home</a></li>
+                <li><a id="imagens" href="imagens-flex.html">Eventos</a></li>
+                <li><a id="destaque" href="destaque.html">destaque</a></li>
+            </ul>
+
+        </nav><!-- Fim topo-->
+    </header>
+
+    <main> <!--Início Main-->
+
+            <!-- o primário e secundário tem 270px. O lateral tem 180px 2x270+180=720. Tamanho do cantainer 170. 
+                Sobra 30px que será usado 15px entre cada conteúdo-->
+        <section class="index">
+
+            <div id="primario">
+                    <div class="caixa">
+
+                        <h2>Temática</h2>
+
+                        <div class="caixa-conteudo">
+                            <h6> M1S02_Ex5 - Ação: adicionar formulário para interessados entrarem em contato </h6>
+                                <ol>
+                                    <li>Deve possuir um campo de nome, e-mail e descrição</li>
+                                    <li>Possuir botão enviar 
+                                    <li>Utilizar HTML Semântico</li>
+                                </ol>
+                        </div>
+
+                    </div>
+            </div>
+
+            <div id="secundario">
+
+                <div class="caixa">
+
+                    <h2>Eventos</h2>
+
+                    <div class="caixa-conteudo">
+
+                        <ul>
+                            <li><a href="https://youtu.be/HvtHEf7JWXQ">13/07/23 - Java script - ambiente</a></li>
+                            <li><a href="https://youtu.be/kbhy50eLlEo">14/07/23 - Java script - var e let</a></li>
+                            <li><a href="https://youtu.be/XFuIsxdc_O8">15/07/23 - Java script - constante</a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <!--Início Lateral-->
+            <div id="lateral">
+                
+                <div class="caixa">
+
+                        <h2>Conteúdo Auxiliar</h2>
+
+                        <div class="caixa-conteudo">
+
+                            <ul>
+                                <li><a href="https://rogerdudler.github.io/git-guide/index.pt_BR.html">GIT-Guia prático</a></li>
+                                <li><a href="https://edrodrigues.com.br/blog/conceitos-git-e-fluxo-de-trabalho-para-iniciantes/">GIT-Vídeo Configuração</a></li>
+                                <li><a href=""></a></li>
+                            </ul>
+
+                        </div>
+
+                </div>
+
+                <div class="caixa">
+
+                    <h2>Contato</h2>
+
+                    <div class="caixa-conteudo">
+
+                        <form class="formulario">
+                            <div>
+                                <label for="Nome">Nome:</label>
+                                <input type="text" name="Nome" id="nome" placeholder="Nome completo">
+                                <label for="Descrição">Descrição:</label>
+                                <input type="text" name="endereco" id="endereco" placeholder="Motivo contato">
+                                <label for="email">Email:</label>
+                                <input type="text" name="email" id="email" placeholder="E-mail">
+
+                            </div>
+
+                            <div>
+                                <input class="submit" type="submit" value="enviar">
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+
+            </div><!--Fim Lateral-->
+
+        </section>
+
+    </main>
+
+    <footer id="container-rodape" style="clear:both"> <!-- “clear: both” means floating the elements are not allowed to float on both sides. -->
+        
+
+            <div id="rodape">
+                &copy; Copyright 2022 Notícias DEVinHouse MKS. <br> <br>
+                <h6>Este exercício faz parte do curso <strong> Senai - DevInHouse - </strong> Programação Full-Strack .</h6>  <br>
+                 Sou Mauro K SantAnna e meu linkedin é <a href="www.linkedin.com/in/mauro-santanna">linkedin</a> 
+     
+            </div>
+        
+    </footer>
+
+</body>
+</html>

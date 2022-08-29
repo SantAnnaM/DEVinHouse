@@ -1,0 +1,53 @@
+<!-- 
+Utilizando estrutura condicional exiba a descrição da classificação da idade da pessoa de acordo com os dados abaixo:
+
+Jovens - Indivíduos de até 15 anos;
+Adultos - Indivíduos com idade entre 16 até 64 anos;
+Idosos - Indivíduos de 65 anos em diante.
+
+Adicione um input html com o placeholder "Informe sua idade"
+Adicione um button html com o texto Classificar
+Crie a função JS para realializar a classificação da idade que deve ser chamada no evento de click do botão classificar
+Exiba o resultado da classificação para o usuário.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>classificação idade</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+  
+    <header class="header"><h1>Exibe a descrição da classificação da idade da pessoa de acordo com a idade informada</h1></header>
+
+   <!-- for do <label>: Tal controle é chamado o controle rotulado do elemento etiqueta. Um elemento HTML label representa uma legenda para um item em uma interface de usuário, importante para a acessibilidade da página. Ex.: quando for selecionado uma caixa de texto, o label associado será lido e a pessoa vai saber com mais facilidade (para acessibilidade) onde ela está naquela página. Outro exemplo é quando estou no celular o label pode ser ampliado com mais facilidade porque se o label é tocado então é selecionado e recebe o foco. É melhor do que ficar utilizando parágrafo simples.
+              O "for" é o ID que será associado ao label. Um input pode ser associado a diversas etiquetas (<label>s).
+              video sobre <label>  https://youtu.be/XOGaBMM3O10  --> 
+
+
+    <main>
+      
+        <div>
+          
+          <h2 id="idade">Digite sua idade:</h2>
+
+          <input placeholder="Informe sua idade" type="number" />
+          <button>Classificar</button>
+          
+      </div>
+      
+    </main>
+
+    <div>
+      <img src="./assets/Evolução.png" alt="classificação da idade" class="imgIdade" id="imgIdade">
+    </div>
+
+  </body>
+
+  <script src="script.js"></script>
+</html>

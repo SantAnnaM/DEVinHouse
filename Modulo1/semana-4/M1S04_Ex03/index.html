@@ -1,0 +1,63 @@
+<!-- 
+Vamos criar as contas dos nossos cliente e adicionar opções ao select de contas:
+
+No arquivo index.js declare como variável em seu código o array de contas de clientes 
+
+Crie uma função para adicionar as opções do select de contas com os itens do array.
+No evento de onload do body chame essa função para popular o select de contas.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banco Vale Tudo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body  onload="addAccountsToSelect()">
+    <header class="header"><h1>Conta bancária Banco Vale Tudo</h1></header>
+
+    
+    <main class="content">
+        <div class="card">
+          <h2>Movimentação: Faça uma operação</h2>
+
+          <div>
+            <label for="account">Conta</label>
+            <select name="account" id="account"></select>
+          </div>
+          <div>
+              <label for="amount">Valor</label>
+              <input type="number" id="amount" name="amount" placeholder="Valor">
+          </div>
+          <div class="formGroup">
+            <label for="operacao">Operação:</label>
+            <select id="operacao" class="field">
+              <option value="0">(Selecione)</option>
+              <option value="1">Sacar</option>
+              <option value="2">Depositar</option>
+            </select>
+          </div>
+          <div>
+              <button type="submit" >Confirmar</button>
+          </div>
+          </form>
+
+        </div>
+        <div class="card">
+          <h2>Cartões</h2>
+          <ul class="cartaoClass" id="cartaoId"></ul>
+        </div>
+        <div class="card">
+          <h2>Investimentos</h2>
+          <ul class="investimentoClass" id="investimentoId"></ul>
+        </div>
+      </main>
+    <br />
+
+  </body>
+  <script src="script.js"></script>
+</html>

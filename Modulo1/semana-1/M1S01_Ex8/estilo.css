@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #4b566a;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
+
+
+}
+
+#topo {
+
+  background: whitesmoke;
+
+}
+
+#menu {
+
+  background-color: black;
+  padding: 15px;
+
+}
+
+#rodape {
+  text-align: center;
+}
+
+.formata-div {
+ 
+  background: white url("Imagens/fundo-h1.png") no-repeat;
+  /* contain: a imagem é redimensionada para encaixar no espaço disponível.*/
+  background-size: cover;
+
+}
+
+.formata-h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 20px ;
+  color: black;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.formata-body {
+  background-color: yellow ;
+}
+/* Tamanho padrão é 16px, se não colocar nada
+  se eu colocasse 1em (em=unidade relativa ao seu container pai) ao invés de 14px, assumiria o padrão de 16px*/
+.formata-p {
+    font-size: 14px;
+    padding: 30px;
+}
+
+.img-avancar-arredondada {
+  height: 50px;
+  width: 80px;
+  border-radius: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  margin-top: 25px;
+  background-color: white;
+}
+
+.logo {
+  border-radius: 100px;
+  border: 2px solid brown;
+  background-color: white;
+
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

@@ -1,0 +1,59 @@
+<!-- 
+Vamos criar a função de saque que deve ser executada caso a opção selecionada no select seja saque
+
+Crie uma função para sacar dinheiro que deve receber como parâmetro o valor a ser sacado e o id da conta;
+1.1. Se o valor for menor ou igual zero deve exibir a mensagem de valor inválido e não realizar nenhuma operação;
+1.2. Se o valor for maior que o saldo em conta deve exibir a mensagem de saldo insuficiente e exibir o saldo atual;
+1.3. Se o valor for maior que zero e menor que o saldo em conta deve exibir a mensagem informado que o saque ocorreu com sucesso e o saldo atual da conta após o saque, além de atualizar o array com esse novo valor;
+Dica: Dê uma olhadinha em find, map, if...
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banco Vale Tudo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+  
+    <header class="header"><h1>Conta bancária Banco Vale Tudo</h1></header>
+
+   <!-- for do <label>: Tal controle é chamado o controle rotulado do elemento etiqueta. Um elemento HTML label representa uma legenda para um item em uma interface de usuário, importante para a acessibilidade da página. Ex.: quando for selecionado uma caixa de texto, o label associado será lido e a pessoa vai saber com mais facilidade (para acessibilidade) onde ela está naquela página. Outro exemplo é quando estou no celular o label pode ser ampliado com mais facilidade porque se o label é tocado então é selecionado e recebe o foco. É melhor do que ficar utilizando parágrafo simples.
+              O "for" é o ID que será associado ao label. Um input pode ser associado a diversas etiquetas (<label>s).
+              video sobre <label>  https://youtu.be/XOGaBMM3O10  --> 
+
+
+    <main>
+      <form id="form">
+        <div class="formGroup">
+          <label for="conta">Conta:</label>
+          <select id="conta" class="field"></select>
+        </div>
+
+        <div class="formGroup">
+          <label for="valor">Valor:</label>
+          <input id="valor" class="field" type="number" />
+        </div>
+
+        <div class="formGroup">
+          <label for="operacao">Operação:</label>
+          <select id="operacao" class="field">
+            <option value="0">(Selecione)</option>
+            <option value="1">Sacar</option>
+            <option value="2">Depositar</option>
+          </select>
+        </div>
+
+        <button id="confirmar" class="button-confirm">Confirmar</button>
+      </form>
+
+      <strong id="mensagem"></strong>
+    </main>
+  </body>
+
+  <script src="script.js"></script>
+</html>

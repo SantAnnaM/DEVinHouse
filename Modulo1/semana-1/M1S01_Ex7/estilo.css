@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+.formata-h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px ;
+  color: black;
+  text-align: center;
+  background: url("Imagens/fundo-h1.png") no-repeat;
+  /* contain: a imagem é redimensionada para encaixar no espaço disponível.*/
+  background-size: contain;
+  background-attachment: fixed;
+  background-color: white;
+}
+
+.formata-body {
+  background-color: rgb(201, 230, 238) ;
+}
+
+.formata-p {
+    font-size: 14px;
+}
+
+.img-avancar-arredondada {
+  height: 50px;
+  width: 80px;
+  border-radius: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  margin-top: 25px;
+  background-color: white;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

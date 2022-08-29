@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <title>DEVin Intelbras-Site de Notícias</title>
+<!--    <script type="text/javascript">
+        function enviar()
+        {document.getElementById('envia-form').innerHTML = 'Informações enviadas com sucesso';}
+        </script> -->
+</head>
+
+<body class="home">
+    <!-- Início container-->
+    <header>
+
+        <nav id="topo"><!-- Início Topo-->
+
+            <h1 class="logo">Notícias DEVinHouse</h1>
+
+            <ul id="navegacao">
+                <li class="primeiro"><a id="home" href="index.html">Home</a></li>
+                <li><a id="imagens" href="imagens-flex.html">Eventos</a></li>
+                <li><a id="destaque" href="destaque.html">destaque</a></li>
+            </ul>
+
+        </nav><!-- Fim topo-->
+    </header>
+
+    <main> <!--Início Main-->
+
+            <!-- o primário e secundário tem 270px. O lateral tem 180px 2x270+180=720. Tamanho do cantainer 170. 
+                Sobra 30px que será usado 15px entre cada conteúdo-->
+        <section class="index">
+
+            <div id="primario">
+                    <div class="caixa">
+
+                        <h2>Temática</h2>
+
+                        <div class="caixa-conteudo">
+                            
+                            <h6> M1S02_Ex7 - Ação: evento de click ao botão enviar do formulário contato ref. exercício 5. </h6>
+                                <ol>
+                                    <li>Desenvolver código JavaScript para exibição no (console.log). <br>
+                                        Os dados digitados no formulário com o seguinte formato: <br> <br>
+                                        Nome: xxx <br> E-mail: xxx <br> Descriçao: xxx </li> <br>
+                                    <li>Deve ficar no final da página mas não deve ser fixo</li> <br>
+                                    <li>Deve ser exibido alerta para o usuário que o formulário foi enviado com sucesso. (alert)</li>
+                                </ol>
+                        </div>
+
+                    </div>
+            </div>
+
+            <div id="secundario">
+
+                <div class="caixa">
+
+                    <h2>Eventos</h2>
+
+                    <div class="caixa-conteudo">
+
+                        <ul>
+                            <li><a href="https://youtu.be/HvtHEf7JWXQ">13/07/23 - Java script - ambiente</a></li>
+                            <li><a href="https://youtu.be/kbhy50eLlEo">14/07/23 - Java script - var e let</a></li>
+                            <li><a href="https://youtu.be/XFuIsxdc_O8">15/07/23 - Java script - constante</a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <!--Início Lateral-->
+            <div id="lateral">
+                
+                <div class="caixa">
+
+                        <h2>Conteúdo Auxiliar</h2>
+
+                        <div class="caixa-conteudo">
+
+                            <ul>
+                                <li><a href="https://rogerdudler.github.io/git-guide/index.pt_BR.html">GIT-Guia prático</a></li>
+                                <li><a href="https://edrodrigues.com.br/blog/conceitos-git-e-fluxo-de-trabalho-para-iniciantes/">GIT-Vídeo Configuração</a></li>
+                                <li><a href=""></a></li>
+                            </ul>
+
+                        </div>
+
+                </div>
+
+                <div class="caixa">
+
+                    <h2>Contato</h2>
+
+                    <div class="caixa-conteudo">
+                        <form name="formCadastro">
+                            <label for="nome">Seu Nome:</label>
+                            <input type="text" name="nome" id="nomeCompleto" placeholder="Nome completo"> 
+                            
+                            <label for="Descricao">Descrição:</label>
+                            <input type="text" name="endereco" id="motivoContato" placeholder="Motivo contato">
+
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="e-mail" placeholder="E-mail">
+                            
+                            <input class="submit" type="button" value="Enviar" onclick="validarFormulario()">
+
+                        </form>
+                        
+                        <script src="funcao-console-log.js"></script>
+                        
+                    </div>
+                </div>
+
+            </div><!--Fim Lateral-->
+
+        </section>
+
+    </main>
+
+    <footer id="container-rodape" style="clear:both"> <!-- “clear: both” means floating the elements are not allowed to float on both sides. -->
+        
+
+            <div id="rodape">
+                &copy; Copyright 2022 Notícias DEVinHouse MKS. <br>
+                <h6>Este exercício faz parte do curso <strong> Senai - DevInHouse - </strong> Programação Full-Strack .</h6>  <br>
+                <h6> By Mauro K SantAnna -  linkedin <a href="www.linkedin.com/in/mauro-santanna">linkedin</a> 
+                 Endereço: NASA Shared Services Center - <a href="https://www.nasa.gov/centers/nssc">Acesso</a></h6>
+     
+            </div>
+        
+    </footer>
+
+</body>
+</html>

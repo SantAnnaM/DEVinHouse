@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <title>DEVinHouse</title>
+</head>
+
+<body class="home">
+    <!-- Início container-->
+    <div id="container">
+
+        <div id="topo"><!-- Início Topo-->
+
+            <h1 class="logo">Notícias DEVinHouse</h1>
+
+            <ul id="navegacao">
+                <li class="primeiro"><a id="home" href="index.html">Home</a></li>
+                <li><a id="imagens" href="imagens.html">Imagens</a></li>
+            </ul>
+
+        </div><!-- Fim topo-->
+        
+        <!-- Início conteúdo-->
+        <!-- o primário e secundário tem 270px. O lateral tem 180px 2x270+180=720. Tamanho do cantainer 170. Sobra 30px que será usado 15px entre cada conteúdo-->
+        <div id="conteudo">
+
+            <div id="primario">Primario</div>
+            <div id="secundario">Secundário</div>
+            <div id="lateral">Lateral</div>
+
+        </div><!-- Fim conteúdo-->
+
+    </div><!-- Fim container-->
+
+    <div id="container-rodape" style="clear:both"> <!-- “clear: both” means floating the elements are not allowed to float on both sides. -->
+        
+        <div id="rodape">
+           &copy; Copyright 2022 Notícias DEVinHouse MKS
+
+        </div>
+    </div>
+   
+    <div  class="formata-div">
+
+        <h1 class="formata-h1"> Semana 1 - SITE EM CONSTRUÇÃO </h1>
+        <h2>
+            LIBERANDO EXERCÍCIO 9: Faça com que os itens do menu fiquem destacados quando <BR> 
+                passar o mouse sobre eles, mudando a cor de fundo apenas do item que o mouse <br> 
+                está em cima. <br>
+    
+            Bônus: Faça com que a cor mude gradualmente, com uma transição de 300 milissegundos.
+            <br>
+            <br>
+            <h3>
+                Obs.: Veja que o botão home fica em vermelho mais claro sem que o mouse mude, não <br>
+            deixando clicar porque já está na página home.
+            </h3>
+            <br>
+            <br>
+            
+        </h2> 
+
+    </div>
+    
+    
+    <!-- linha horizontal entre o título e o parágrafo -->
+    <hr/>
+
+    <!-- Duas quebras de linha no parágrafo, uma logo após a palavra "exercício" 
+        e outra logo após a palavra "semana". -->
+    <!-- insira algum emoji de sua escolha no parágrafo. -->
+
+    <div>
+    
+        <p class="formata-p"> &#x1F367;
+            Este é o resultado do primeiro exercício<br /> 
+            da primeira semana <br /> 
+            do curso DEVinHouse.
+        </p>
+    </div>
+
+    <br>
+    <h3> Você sabe para onde vai o Esgoto que você produz? </h3>
+    <h5>Este vídeo é sobre a empresa privada cujo nome é "Cetres", localizada no interior do Rio Grande Do Sul, <br> 
+        pioneira em tratamento de esgoto, que tem por objetivo
+        fazer o recolhimento do material escoado para <br> 
+        o esgoto (fossa) de nossas casas e levado para tratamento eliminando as impurezas e liberando
+        água limpa nos rios. </h5>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JCsTqMxsSJU?controls=0" title="Você sabe para onde vai o Esgoto que você produz?" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
+
+    <hr/>
+    
+<!-- Exercício 4. No index.html, adicione um botão (anchor) contendo o texto "Avançar" e, utilizando apenas HTML, 
+    faça com que o usuário, ao clicar nesse botão, vá para a página das imagens (imagens.html).
+ -->
+<!-- Exercício 4. Substitua o texto "Avançar" do botão por uma imagem.
+     Agora, usando CSS, faça com que o botão tenha uma borda curvada.
+     Aumente o padding do botão em 10 pixels, coloque uma borda sólida de 2 pixels na cor preta, e uma margem superior de 20 pixels.
+  -->
+
+        <a href="imagens.html">
+            <img class="img-avancar-arredondada" src="Imagens/Avançar.png" alt="Botão Avançar">                          
+        </a>
+
+        <div id="rodape">
+            <h4>Todos os Direitos Reservados</h4>
+
+        </div>
+</body>
+</html>

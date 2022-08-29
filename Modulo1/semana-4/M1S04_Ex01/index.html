@@ -1,0 +1,40 @@
+<!--Vamos criar a estrutura inicial do projeto para desenvolvimento do sistema de conta bancária.
+
+Crie um arquivo index.html com a estrutura básica do html adicionando o título do seu sistema (escolha o nome que quiser)
+Crie um arquivo index.js e adicione ele o link dele no arquivo index.html
+Caso queira estilizar e deixar sua página lindona crie um index.css e adicione o link dele no html
+Realize o commit no github dessa parte-->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banco Vale Tudo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header"><h1>Conta bancária Banco Vale Tudo</h1></header>
+
+    <main class="content">
+        <div class="card">
+          <h2>Extrato</h2>
+          <ul class="extratoClass" id="extratiId"></ul>
+        </div>
+        <div class="card">
+          <h2>Cartões</h2>
+          <ul class="cartaoClass" id="cartaoId"></ul>
+        </div>
+        <div class="card">
+          <h2>Investimentos</h2>
+          <ul class="investimentoClass" id="investimentoId"></ul>
+        </div>
+      </main>
+    <br />
+
+  </body>
+  <script src="script.js"></script>
+</html>

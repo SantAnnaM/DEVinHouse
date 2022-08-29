@@ -1,0 +1,296 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(156, 207, 235) url(imagens/fundo.png) repeat-x;
+
+}
+
+#container {
+  width: 750px;
+  margin: 0 auto;
+  }
+
+header {
+width: 750px;
+margin: 0 auto;
+}
+
+nav {
+height: 150px;
+background: url(imagens/detalhe-topo.png) no-repeat right top;
+padding-top: 25px;
+/* border: 1px solid red; */
+}
+
+.logo {
+  width: 200px;
+  height: 60px;
+  background: url(imagens/logo.png) no-repeat center;
+  text-indent: -3000px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ol {
+	list-style-type: lower-roman;
+  margin: 15px;
+  padding: 0px;
+
+}
+ol li{
+	color: #666666;
+  font-size: 0.8em;
+
+  
+}
+#topo ul {
+  margin-top: 30px;
+  background: #b10333 ;
+  float: left;
+}
+
+#topo ul li {
+  float: left;
+}
+
+#topo ul a {
+  font-size: 0.9em;
+  display: block;
+  padding: 0.5em 1.5em;
+  line-height: 2.1em;
+  text-decoration: none;
+  color: white;
+  background: url(imagens/divisor.png) no-repeat left;
+}
+
+#topo ul .primeiro a {
+  background: none;
+}
+
+#topo ul a:hover {
+	color: blue;
+  transition:all 900ms ease;
+}
+
+nav.home #navegacao a#home,
+nav.imagens #navegacao a#imagens,
+nav.destaque #navegacao a#destaque
+{
+  color: white;
+  background: #dc003e;
+  cursor: text;
+}
+
+.imagens-container-flex {
+  width: 95%;
+  border: #dc003e solid 5px;
+  padding: 1em;
+  margin-left: 15px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section.index {
+  background: #f5f5f5;
+  margin-top: 60px;
+  margin-left: 365px;
+}
+
+section.destaque {
+  background: #f5f5f5;
+  margin-top: 60px;
+  margin-left: 0px;
+}
+
+section.img {
+  display: block;
+  width: 33%;
+
+}
+
+#lateral {
+  width: 180px;
+  float: left;
+  margin: 0 0 20px -750px;
+} 
+
+#primario {
+  width: 270px;
+  float: left;
+  margin: 0 0 20px 195px; /* 195px na esquerda para deixar um espaçamento de 180 + 15 para caber o #lateral*/
+}
+
+#primario-destaque {
+  display: block;
+  position: relative;
+  width: 98%;
+  height: 335px;
+}
+#primario-destaque img{
+  width: 100%;
+  height: 100%;
+}
+#primario-destaque h1{
+  display: block;
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+#duas-colunas #primario {
+  width: 555px;
+}
+
+#uma-coluna #primario {
+  width: 750px;
+  margin: 0 0 20px 0px; /* 195px na esquerda para deixar um espaçamento de 180 + 15 para caber o #lateral*/
+}
+
+#secundario {
+  width: 270px;
+  float: left;
+  margin: 0 0 20px 15px;
+}
+#secundario-destaque {
+  width: 470px;
+  float: left;
+  margin: 0 0 20px 15px;
+}
+
+#secundario ul a{
+  font-size: 0.7em;
+  padding: 5px;
+  display: block;
+  line-height: 30px;
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+#secundario ul a:hover {
+  background: white url(imagens/marcador.png) no-repeat left center;
+  padding-left: 20px;
+  color: gray;
+}
+
+#lateral ul a{
+  font-size: 0.7em;
+  padding: 5px;
+  display: block;
+  line-height: 30px;
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+  background: white url(imagens/marcador.png) no-repeat left center;
+  padding-left: 20px;
+  color: gray;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+}
+
+input {
+  padding: 5px;
+  width: 125px;
+  font-size: 0.9em;
+  background-color: white;
+}
+
+input.submit {
+  width: 80px;
+  color: white;
+  background-color: #b10333;
+  border: 2px solid #870529;
+}
+
+/*Rodapé*/
+#container-rodape {
+  background: #294c71;
+  padding: 15px;
+}
+
+/*Caixa*/
+.caixa {
+  margin: 10px 0;
+  padding: 5px;
+  background: gray url(Imagens/fundo-caixa.png);
+}
+
+h2 {
+font-size: 0.9em;
+background: #294c71;
+color: white;
+padding: 5px;
+}
+
+.caixa-conteudo {
+  background: white;
+  padding: 5px;
+  margin-top: 5px;
+
+}
+
+#rodape {
+  width: 750px;
+  border: 5px solid blue;
+  margin: 0 auto;
+  color: white;
+}
+
+#rodape a{
+  color: red;
+}
+
+footer {
+  width: 100%;
+  height: 95px;
+  margin: auto;
+  bottom: 0;
+}
+
+/* Tamanho padrão é 16px, se não colocar nada
+  se eu colocasse 1em (em=unidade relativa ao seu container pai) ao invés de 14px, assumiria o padrão de 16px*/
+
+.column {
+  float: left;
+  width: 32%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.botaoMaisMenos{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid lightcoral;
+    background-color: rgb(241, 214, 214);
+    color: lightcoral;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}

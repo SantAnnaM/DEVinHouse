@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <title>DEVinHouse</title>
+</head>
+
+<body class="home">
+    <!-- Início container-->
+    <div id="container">
+
+        <div id="topo"><!-- Início Topo-->
+
+            <h1 class="logo">Notícias DEVinHouse</h1>
+
+            <ul id="navegacao">
+                <li class="primeiro"><a id="home" href="index.html">Home</a></li>
+                <li><a id="imagens" href="imagens.html">Imagens</a></li>
+                <li><a id="Destaque" href="imagens.html">Destaque</a></li>
+            </ul>
+
+        </div><!-- Fim topo-->
+        
+        <!-- Início conteúdo-->
+        <!-- o primário e secundário tem 270px. O lateral tem 180px 2x270+180=720. Tamanho do cantainer 170. Sobra 30px que será usado 15px entre cada conteúdo-->
+        <div id="conteudo">
+
+            <div id="primario">Primario</div>
+            <div id="secundario">Secundário
+
+                <div class="caixa">
+
+                    <h2>Secundário</h2>
+
+                    <div class="caixa-conteudo">
+
+                       
+                    </div>
+
+            </div>
+
+
+            </div>
+
+            <!--Início Lateral-->
+
+            <div id="lateral">
+                
+                <div class="caixa">
+
+                        <h2>Conteúdo Auxiliar</h2>
+
+                        <div class="caixa-conteudo">
+
+                            <ul>
+                                <li><a href="https://rogerdudler.github.io/git-guide/index.pt_BR.html">GIT-Guia prático</a></li>
+                                <li><a href="https://edrodrigues.com.br/blog/conceitos-git-e-fluxo-de-trabalho-para-iniciantes/">GIT-Vídeo Configuração</a></li>
+                                <li><a href=""></a></li>
+                            </ul>
+
+                        </div>
+
+                </div>
+
+                <div class="caixa">
+
+                    <h2>News</h2>
+
+                    <div class="caixa-conteudo">
+
+                        <form>
+                            <div>
+
+                                <label for="email">Email:</label>
+                                <input type="text" name="email" id="email" placeholder="E-mail">
+
+                            </div>
+
+                            <div>
+                                <input class="submit" type="submit" value="Cadastrar">
+                            </div>
+
+                        </form>
+
+                    </div>
+
+            </div>
+
+            </div><!--Fim Lateral-->
+
+        </div><!-- Fim conteúdo-->
+
+    </div><!-- Fim container-->
+
+    <div id="container-rodape" style="clear:both"> <!-- “clear: both” means floating the elements are not allowed to float on both sides. -->
+        
+
+            <div id="rodape">
+                &copy; Copyright 2022 Notícias DEVinHouse MKS. <br> <br>
+                <h6>Este exercício faz parte do curso <strong> Senai - DevInHouse - </strong> Programação Full-Strack .</h6>  <br>
+                 Sou Mauro K SantAnna e meu linkedin é <a href="www.linkedin.com/in/mauro-santanna">linkedin</a> 
+     
+             </div>
+        
+    </div>
+   
+    <div  class="formata-div">
+
+        <h1 class="formata-h1"> Semana 1 - SITE EM CONSTRUÇÃO </h1> <br>
+        <h2>
+            LIBERANDO EXERCÍCIO 10: Adicione uma região de rodapé na página index, <br> 
+            com uma cor de fundo diferente do resto da página <br> 
+            e algumas informações sobre você, o/a desenvolvedor(a). <br> <br>
+
+            Desafio: Faça com que o rodapé fique sempre ao final da página, <br> 
+            junto da borda inferior da janela, mas sem ser fixo. Se o conteúdo <br> 
+            ocupar mais do que a altura total da página, o rodapé não pode se sobrepor a ele. <br>
+            <br>
+            <br>
+            <h3>
+                Obs.: 
+            </h3>
+            <br>
+            <br>
+            
+        </h2> 
+
+    </div>
+    
+    
+    <!-- linha horizontal entre o título e o parágrafo -->
+    <hr/>
+
+    <!-- Duas quebras de linha no parágrafo, uma logo após a palavra "exercício" 
+        e outra logo após a palavra "semana". -->
+    <!-- insira algum emoji de sua escolha no parágrafo. -->
+
+
+    <br>
+    <h3> Você sabe para onde vai o Esgoto que você produz? </h3>
+    <h5>Este vídeo é sobre a empresa privada cujo nome é "Cetres", localizada no interior do Rio Grande Do Sul, <br> 
+        pioneira em tratamento de esgoto, que tem por objetivo
+        fazer o recolhimento do material escoado para <br> 
+        o esgoto (fossa) de nossas casas e levado para tratamento eliminando as impurezas e liberando
+        água limpa nos rios. </h5>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JCsTqMxsSJU?controls=0" title="Você sabe para onde vai o Esgoto que você produz?" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
+
+    <hr/>
+    
+<!-- Exercício 4. No index.html, adicione um botão (anchor) contendo o texto "Avançar" e, utilizando apenas HTML, 
+    faça com que o usuário, ao clicar nesse botão, vá para a página das imagens (imagens.html).
+ -->
+<!-- Exercício 4. Substitua o texto "Avançar" do botão por uma imagem.
+     Agora, usando CSS, faça com que o botão tenha uma borda curvada.
+     Aumente o padding do botão em 10 pixels, coloque uma borda sólida de 2 pixels na cor preta, e uma margem superior de 20 pixels.
+  -->
+
+        <a href="imagens.html">
+            <img class="img-avancar-arredondada" src="Imagens/Avançar.png" alt="Botão Avançar">                          
+        </a>
+</body>
+</html>

@@ -1,8 +1,69 @@
-/* Estas classes criadas durante os exercícios estão prontas para serem utilizadas em uma aplicação real. Por exemplo: podemos criar um sistema de pedidos, e, através da propriedade listaProdutos, podemos realizar uma iteração nos produtos de determinado pedido e imprimir cada um deles em tela.
+/* 
+Crie 5 instâncias de produtos, com as características que desejar.
 
+Crie 2 instâncias de pedidos. O primeiro pedido deve ter o número '20220001' 
+e o nome do cliente à sua escolha. O segundo pedido deve ser o '20220002'.
+
+Utilizando o método adicionarProduto, adicione 3 dos 5 produtos ao pedido
+ '20220001' e, o restante, ao pedido '20220002'.
+*/
+
+import { Pedido } from "./src/Pedido.js";
+import { Produto } from "./src/Produto.js";
+
+// Instanciando objeto produtos
+const prod1 = new Produto('JavaScript', 40_000, true, 1)
+const prod2 = new Produto('Reactive+JavaScript', 40_000, true,10_000, false, 0)
+const prod3 = new Produto('Cobol', 6_500, true, 2)
+const prod4 = new Produto('Progress', 20_000, true, 1)
+const prod5 = new Produto('Oracle', 35_000, true, 5)
+
+// Instanciando objeto pedidos 
+
+const pd1  =  new Pedido('20220001', "SESI");
+    pd1.adicionarProdutoNoPedido(prod1);
+    pd1.adicionarProdutoNoPedido(prod2);
+
+const pd2  =  new Pedido('20220002', "SENAI");
+    pd2.adicionarProdutoNoPedido(prod3);
+    pd2.adicionarProdutoNoPedido(prod4);
+    pd2.adicionarProdutoNoPedido(prod5); 
+
+    document.getElementById("mostraPedido").innerHTML  += 
+                                    `Número Pedido= ${pd1.numPedido}   /   
+                                     Nome Cliente= ${pd1.nomeCliente}  </br>`;
+    let html = '<ul>';
+    for (let i in pd1.listaProdutos) {
+        html += '<li>' + (pd1.listaProdutos[i].nome) + '</li>';
+       
+    }
+    html += '</ul>';
+
+    document.getElementById("mostraPedido").innerHTML  += html;
+
+    document.getElementById("mostraPedido").innerHTML  += 
+                                    `</br> Número Pedido= ${pd2.numPedido}   /   
+                                     Nome Cliente= ${pd2.nomeCliente}  </br>`;
+
+    html = '<ul>';
+    for (let i in pd2.listaProdutos) {
+        html += '<li>' + (pd2.listaProdutos[i].nome) + '</li>';
+    }
+    html += '</ul>';
+    document.getElementById("mostraPedido").innerHTML  += html;
+
+// FIM DO EXERCÍCIO 7.
+
+// OS COMENTÁRIOS ABAIXO SÃO CÓPIA DO EXERCÍCIO ANTERIOR.
+
+
+/* Estas classes criadas durante os exercícios estão prontas para serem utilizadas em uma aplicação real. Por exemplo: podemos criar um sistema de pedidos, e, através da propriedade listaProdutos, podemos realizar uma iteração nos produtos de determinado pedido e imprimir cada um deles em tela.
+*/
+
+/*
 Podemos chamar o método calcularTotal para exibir em tela o valor total de um determinado pedido.
 
-Crie uma página HTML para exibir os nossos produtos. Use sua criatividade para criar como desejar. Segue um exemplo (vide anexo):
+Crie uma página HTML para exibir os nossos produtos. 
 
 Exemplo Página de Pedidos
 
@@ -21,21 +82,22 @@ Dica: você pode utilizar o toLocaleString em um número para formata-lo como mo
 // a declaração das variáveis antes de declarar a função (hoisting).
 // posso criar de 3 formas de representação de um objeto: função, classes, ou objeto literal.
 
-class Produto {
-    constructor(nome, preco, emEstoque, quantidade) {  //Método constructor//
+/*
+/* class Produto {
+    constructor(nome, precox, emEstoque, quantidade) {  //Método constructor//
         this.nome = nome;  // declarando as propriedades
-        this.preco = preco;  // "this" guarda o espaço que vai servir 
+        this.precox = precox;  // "this" guarda o espaço que vai servir 
         // de referência quando este objeto concreto for criado, ele
         // não existe ainda.
         this.emEstoque = emEstoque;
         this.quantidade = quantidade;
     }
     verDescricao() {
-        console.log(`Classe Produto - Nome: ${this.nome} - preço ${this.preco} - ${this.emEstoque}`);
+        console.log(`Classe Produto - Nome: ${this.nome} - preço ${this.precox} - ${this.emEstoque}`);
     };
 };
-
-let produtox = new Produto("morango", 10, true, 5);
+*/
+/* let produtox = new Produto("morango", 10, true, 5);
 
 console.log(produtox)
 produtox.verDescricao();
@@ -81,13 +143,13 @@ Então, posso usar uma expressão matemática no return que soma o valor + acumu
 */
 /* Orientação: Dentro da classe Pedido, crie outro método, chamado calcularTotal, que deve iterar sobre a listaProdutos e retornar o valor total do pedido. */
 
-     calcularTotal() {
+/*     calcularTotal() {
 
         let total = this.listaProdutos.reduce((ant, atu) => {
 
-            console.log('ant = ' + ant + " preco = " + atu.preco + " qtd = " + atu.quantidade);
+            console.log('ant = ' + ant + " precox = " + atu.precox + " qtd = " + atu.quantidade);
 
-            return (ant + (atu.preco * atu.quantitdade));    
+            return (ant + (atu.precox * atu.quantidade));    
         }, 0);
 
         return total;
@@ -101,13 +163,13 @@ Então, posso usar uma expressão matemática no return que soma o valor + acumu
         console.log("Total Produto = " + total + " | " + ant + " | " + atu);
 
     } */
-};
-
-let pedido = new Pedido(10, "mauro");
+/* };
+*/
+// let pedido = new Pedido(10, "mauro");
 /* passa argumentos de produto e quantidade  */
 /* pedido.adicionarProdutoPedido('melão'); */
 
-pedido.adicionarProdutoPedido('banana');
+/* pedido.adicionarProdutoPedido('banana');
 pedido.adicionarProdutoPedido('morango');
 
 pedido.calcularTotal();

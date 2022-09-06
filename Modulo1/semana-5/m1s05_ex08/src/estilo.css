@@ -1,0 +1,8 @@
+.dataPedido {
+  border: 1px solid red;
+  width: 150px;
+  display:inline;
+  padding: 4px;
+  position: relative;
+  margin-left: 800px;
+}

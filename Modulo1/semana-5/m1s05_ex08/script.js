@@ -144,7 +144,7 @@ const pd2  =  new Pedido('20220002', "SENAI");
 
             vParagrafo = document.createElement("li");
             vParagrafo.className = "li";
-            vParagrafo.append(`${listaProdutos[j]} - Quantidade ${qtdPedida[j]} - Valor un. R$ ${valorUn[j]}`);
+            vParagrafo.append(`${listaProdutos[j]} - Quantidade ${qtdPedida[j]} - Valor un. R$ ${valorUn[j].toFixed(2)}`);
             
             vDiv.append(vParagrafo);
             vFieldset.append(vDiv); // insere div no fieldset

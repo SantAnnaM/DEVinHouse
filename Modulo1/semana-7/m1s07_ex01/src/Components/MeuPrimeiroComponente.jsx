@@ -1,4 +1,4 @@
-const MeuPrimeiroComponente = () => {
+export const MeuPrimeiroComponente = () => {
     return (
         <div>
             <h1>Meu primeiro componente</h1>
@@ -6,5 +6,3 @@ const MeuPrimeiroComponente = () => {
         
     );
 };
-
-export default MeuPrimeiroComponente;

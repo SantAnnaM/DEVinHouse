@@ -73,7 +73,7 @@ const pd2  =  new Pedido('20220002', "SENAI");
         let v0 = "Pedido n. " 
         let vStrong = document.createElement("strong"); // cria strong
         
-        vStrong.append(nrPedido); // insere numPedido no <strong>
+        vStrong.append(nrPedido.padEnd(10, ' ')); // insere numPedido no <strong>
         let vData = document.createElement("span");
         vData.append(dtPed);  
         vData.className = "dataPedido";
@@ -144,7 +144,7 @@ const pd2  =  new Pedido('20220002', "SENAI");
 
             vParagrafo = document.createElement("li");
             vParagrafo.className = "li";
-            vParagrafo.append(`${listaProdutos[j]} - Quantidade ${qtdPedida[j]} - Valor un. R$ ${valorUn[j].toFixed(2)}`);
+            vParagrafo.append(`${listaProdutos[j].padEnd(30, '.')} - Quantidade ${qtdPedida[j].toFixed(2)} - Valor un. R$ ${valorUn[j].toFixed(2)}`);
             
             vDiv.append(vParagrafo);
             vFieldset.append(vDiv); // insere div no fieldset

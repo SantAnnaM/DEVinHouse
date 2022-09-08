@@ -1,0 +1,13 @@
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: greenyellow;
+  border: #399ade solid 15px;
+};
+.logo {
+  border: red solid 20px;
+}
+.menu {
+  border: red solid 20px;
+}

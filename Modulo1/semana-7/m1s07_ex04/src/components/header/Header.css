@@ -1,13 +1,37 @@
 
 header {
-  display: flex;
-  justify-content: space-between;
-  background-color: greenyellow;
-  border: #399ade solid 15px;
+  position: fixed;
+  left:0;
+  top:0;
+  right:0;
+  height:60px;
+  background-color:#399ade;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+main {
+  flex:1;
+  padding:20px;
+}
+h1 {
+  font-family:'Hepta Slab', Helvetica, Arial;
+}
+
+
+.menu-closer {
+  width:32px;
+  height:32px;
+  display:none;
+  font-size: 30px;
+}
+.menu-Openner {
+  margin-right: 15px;
+  font-size: 26px;
+  background-color: #a9dcff;
+  padding: 5px 20px;
+  border-radius: 5px;
 };
-.logo {
-  border: red solid 20px;
-}
-.menu {
-  border: red solid 20px;
-}
+.menu-Openner span {
+  margin-right:10px;
+};

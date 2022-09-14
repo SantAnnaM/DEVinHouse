@@ -1,0 +1,21 @@
+:root {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  background-color: #242424;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+#root {
+  display: flex;
+  min-height: 100vh;
+  min-width: 100%;
+
+}

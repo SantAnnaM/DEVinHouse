@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "categoria": "Pizza",
+    "img": "/src/assets/image/catPizza.png"
+  },
+  {
+    "id": "2",
+    "categoria": "entradasESaladas",
+    "img": "/src/assets/image/catSalad.png"
+  },
+  {
+    "id": "3",
+    "categoria": "pratosPrincipais",
+    "img": "/src/assets/image/catMainCourse.png"
+  },
+  {
+    "id": "4",
+    "categoria": "sobremesa",
+    "img": "/src/assets/image/catDessert.png"
+  },
+  {
+    "id": "5",
+    "categoria": "bebidas",
+    "img": "/src/assets/image/catBebidas.png"
+  }
+]

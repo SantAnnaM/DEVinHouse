@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "categoria": "Pizza",
+    "img": "/src/assets/image/catPizza.png",
+    "subcategoria":["tudo"]
+  },
+  {
+    "id": "2",
+    "categoria": "entradasESaladas",
+    "img": "/src/assets/image/catSalad.png",
+    "subcategoria": ["Salada fria", "Salada temperada"]
+  },
+  {
+    "id": "3",
+    "categoria": "pratosPrincipais",
+    "img": "/src/assets/image/catMainCourse.png",
+    "subcategoria": ["Opção Vegana", "Opção Vegetariana"]
+  },
+  {
+    "id": "4",
+    "categoria": "sobremesa",
+    "img": "/src/assets/image/catDessert.png",
+    "subcategoria":["Sem açúcar", "Com adoçante"]
+  },
+  {
+    "id": "5",
+    "categoria": "bebidas",
+    "img": "/src/assets/image/catBebidas.png",
+    "subcategoria": ["Sem álcool", "Com álcool"]
+  }
+]

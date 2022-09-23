@@ -1,0 +1,418 @@
+[
+  {
+    "id": "1",
+    "categoria": "Pizza",
+    "name": "Muzarela",
+    "img": "/src/assets/image/muzarela.png",
+    "price": "32.19",
+    "sizes": [
+      "100g",
+      "530g",
+      "860g"
+    ],
+    "description": "Massa fina coberta com molho de tomate, queijo muzarela e orégano."
+  },
+  {
+    "id": "2",
+    "categoria": "Pizza",
+    "name": "Calabresa",
+    "img": "/src/assets/image/calabresa.png",
+    "price": "36.00",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Massa fina de pizza coberta com queijo muzzarela e finas fatias de linguiça calabresa frita."
+  },
+  {
+    "id": "3",
+    "categoria": "Pizza",
+    "name": "Portuguesa",
+    "img": "/src/assets/image/portuguesa.png",
+    "price": "49.45",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Massa fina coberta com muzzarela, tomate, pimentão, cebola, champignon, ovo cozido, azeitona, presunto e linguiça calabresa."
+  },
+  {
+    "id": "4",
+    "categoria": "Pizza",
+    "name": "Marguerita",
+    "img": "/src/assets/image/marguerita.png",
+    "price": "36.77",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Massa fina coberta com muzzarela, finas fatias de tomate, folhas de manjericão fresco e orégano."
+  },
+  {
+    "id": "5",
+    "categoria": "Pizza",
+    "name": "4 Queijos",
+    "img": "/src/assets/image/quatroqueijos.png",
+    "price": "36.00",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Massa fina coberta com muzzarela, parmesão, gorgonzola e queijo tipo catupiry."
+  },
+  {
+    "id": "6",
+    "categoria": "Pizza",
+    "name": "Moda da Casa",
+    "img": "/src/assets/image/pizza6.png",
+    "price": "18.55",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Massa fina coberta com muzzarela, parmesão, milho, molho branco, Bacon."
+  },
+  {
+    "id": "7",
+    "categoria": "Pizza",
+    "name": "Chocolate",
+    "img": "/src/assets/image/pizza7.png",
+    "price": "22.36",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Massa fina coberta com Doce de Leite e Chocolate Branco em Flocos"
+  },
+  {
+    "id": "8",
+    "categoria": "entradasESaladas",
+    "name": "COUVERT FAMÍLIA",
+    "img": "/src/assets/image/couvertfamilia.png",
+    "price": "69.36",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Brioches, grissinis, pizza branca, torradas, mussarela, salame, linguiça calabresa, ovos de codorna, azeitonas verdes, manteiga, molho golf, patê de fígado e pasta de ricota."
+  },
+  {
+    "id": "9",
+    "categoria": "entradasESaladas",
+    "name": "SALADA CAESAR",
+    "img": "/src/assets/image/saladaceaser.png",
+    "price": "30.00",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Tradicional salada de alface, parmesão em lascas, croutons, cubos de bacon e molho caesar."
+  },
+  {
+    "id": "10",
+    "categoria": "entradasESaladas",
+    "name": "CARPACCIO",
+    "img": "/src/assets/image/carpaccio.png",
+    "price": "29.00",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Finas fatias de carne, com lascas de parmesão, alcaparras e molho temperado, acompanhadas de torradas."
+  },
+  {
+    "id": "11",
+    "categoria": "entradasESaladas",
+    "name": "PORÇÃO DE BOLINHO DE BACALHAU",
+    "img": "/src/assets/image/bolobacalhau.png",
+    "price": "35.00",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Porção de bolinho de bacalhau com doze unidades."
+  },
+  {
+    "id": "12",
+    "categoria": "entradasESaladas",
+    "name": "SALADA ESPECIAL",
+    "img": "/src/assets/image/saladaespecial.png",
+    "price": "33.00",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Escolha até doze itens e um molho."
+  },
+  {
+    "id": "13",
+    "categoria": "entradasESaladas",
+    "name": "COUVERT (SOMENTE NO RESTAURANTE)",
+    "img": "/src/assets/image/couvert.png",
+    "price": "29.00",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Brioches, grissinis, pizza branca, torradas, mussarela, salame, linguiça calabresa, ovos de codorna, azeitonas verdes, manteiga, molho golf, patê de fígado e pasta de ricota."
+  },
+  {
+    "id": "14",
+    "categoria": "pratosPrincipais",
+    "name": "CARIOQUINHA LA MOLE - FRANGO",
+    "img": "/src/assets/image/carioquinha.png",
+    "price": "29.00",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Filé de peito de frango com arroz branco, feijão, farofa e batata frita."
+  },
+  {
+    "id": "15",
+    "categoria": "pratosPrincipais",
+    "name": "CARIOQUINHA LA MOLE - CONTRAFILÉ",
+    "img": "/src/assets/image/carioquinhalamole.png",
+    "price": "38.00",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Contrafilé com arroz branco, feijão, farofa e batata frita."
+  },
+  {
+    "id": "16",
+    "categoria": "pratosPrincipais",
+    "name": "PICADINHO DE FILÉ",
+    "img": "/src/assets/image/picadinhofile.png",
+    "price": "42.00",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Acompanhado de arroz branco, purê de batatas, farofa, banana frita e ovo poché."
+  },
+  {
+    "id": "17",
+    "categoria": "pratosPrincipais",
+    "name": "FILÉ DE TILÁPIA GRELHADO",
+    "img": "/src/assets/image/filetilapia.png",
+    "price": "33.00",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Acompanhado de arroz com brócolis e salada verde."
+  },
+  {
+    "id": "18",
+    "categoria": "pratosPrincipais",
+    "name": "CARNE SECA DESFIADA",
+    "img": "/src/assets/image/carneseca.png",
+    "price": "33.00",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Servida com arroz branco, couve, abóbora cozida e tutu à mineira."
+  },
+  {
+    "id": "19",
+    "categoria": "pratosPrincipais",
+    "name": "POLPETONE À PARMEGIANA",
+    "img": "/src/assets/image/polpetone.png",
+    "price": "39.00",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Servido com purê de batatas e arroz com brócolis."
+  },
+  {
+    "id": "20",
+    "categoria": "pratosPrincipais",
+    "name": "FEIJOADA LA MOLE",
+    "img": "/src/assets/image/feijoada.png",
+    "price": "79.00",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Serve até duas pessoas, acompanhada de arroz branco, couve, carré grelhado, farofa, aipim frito, torresmo e laranja. - servido até as 15h30."
+  },
+  {
+    "id": "21",
+    "categoria": "sobremesa",
+    "name": "PROFITEROLES",
+    "img": "/src/assets/image/profiteroles.png",
+    "price": "22.00",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Carolinas recheadas com creme anglaise e sorvete de creme com calda quente de chocolate."
+  },
+  {
+    "id": "22",
+    "categoria": "sobremesa",
+    "name": "MOUSSE DE CHOCOLATE",
+    "img": "/src/assets/image/mouse.png",
+    "price": "17.00",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Mousse de Chocolate feito com creme de leite."
+  },
+  {
+    "id": "23",
+    "categoria": "sobremesa",
+    "name": "CREME GELADO DE TAPIOCA",
+    "img": "/src/assets/image/cremegeladodetapioca.png",
+    "price": "21.00",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Tapioca com creme de leite."
+  },
+  {
+    "id": "24",
+    "categoria": "sobremesa",
+    "name": "BANANA ROYAL",
+    "img": "/src/assets/image/bananaroyal.png",
+    "price": "21.00",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Banana assada, caramelizada,  acompanhada com nata."
+  },
+  {
+    "id": "25",
+    "categoria": "sobremesa",
+    "name": "PUDIM",
+    "img": "/src/assets/image/pudim.png",
+    "price": "15.00",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Pudim de leite condensado com calda caramelada."
+  },
+  {
+    "id": "26",
+    "categoria": "sobremesa",
+    "name": "PETIT GATEAU",
+    "img": "/src/assets/image/petitgateau.png",
+    "price": "28.00",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Petit gateau servido com bola de sorvete de creme."
+  },
+  {
+    "id": "27",
+    "categoria": "sobremesa",
+    "name": "FATIA DE TORTA ALEMÃ",
+    "img": "/src/assets/image/fatiadetortaalema.png",
+    "price": "16.00",
+    "sizes": [
+      "320g",
+      "530g",
+      "860g"
+    ],
+    "description": "Torta Alemã coberto com chocolate."
+  },
+  {
+    "id": "28",
+    "categoria": "bebidas",
+    "name": "Refrigerante em lata",
+    "img": "/src/assets/image/cocacola.png",
+    "price": "8.00",
+    "sizes": [
+      "350ml",
+      "0",
+      "0"
+    ],
+    "description": "Refrigerante em lata Coca-Cola 350ml. Peça também sprite, guaraná."
+  },
+  {
+    "id": "29",
+    "categoria": "bebidas",
+    "name": "Água Mineral",
+    "img": "/src/assets/image/agua.png",
+    "price": "6.00",
+    "sizes": [
+      "350ml",
+      "0",
+      "0"
+    ],
+    "description": "Água mineral 350ml"
+  },
+  {
+    "id": "30",
+    "categoria": "bebidas",
+    "name": "Suco Natural de Laranja 1L",
+    "img": "/src/assets/image/suco.png",
+    "price": "22.00",
+    "sizes": [
+      "1000ml",
+      "0",
+      "0"
+    ],
+    "description": "1 litro de suco natural feito na hora com frutas frescas e selecionadas. Peça também no sabor de abacaxi."
+  },
+  {
+    "id": "31",
+    "categoria": "bebidas",
+    "name": "Cerveja",
+    "img": "/src/assets/image/cerveja.png",
+    "price": "13.00",
+    "sizes": [
+      "355ml",
+      "0",
+      "0"
+    ],
+    "description": "Cerveja long neck 355ml"
+  },
+  {
+    "id": "32",
+    "categoria": "bebidas",
+    "name": "Espumante 60 anos",
+    "img": "/src/assets/image/espumante.png",
+    "price": "95.00",
+    "sizes": [
+      "750ml",
+      "0",
+      "0"
+    ],
+    "description": "Vinho Rosé Espumante Natural Brut - Edição Comemorativa. Serra Gaúcha- Garibaldi - RS. 750 ml"
+  }
+]
